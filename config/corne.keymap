@@ -59,10 +59,10 @@
 
         brackets {
             bindings = <
-&trans  &htp LS(N1) N1  &htp LS(N2) N2  &htp LS(N3) N3  &htp LS(N4) N4  &htp LS(N5) N5    &htp LS(N6) N6  &htp LS(N7) N7  &htp LS(N8) N8  &htp LS(N9) N9  &htp LS(N0) N0  &trans
-&trans  &kp LT          &kp LBRC        &kp LBKT        &kp LPAR        &kp COLON         &kp PAGE_UP     &kp LEFT        &kp UP          &kp DOWN        &kp RIGHT       &trans
-&trans  &kp GT          &kp RBRC        &kp RBKT        &kp RPAR        &kp UNDER         &kp PAGE_DOWN   &kp DELETE      &trans          &trans          &trans          &trans
-                                        &trans          &kp LEFT_GUI    &trans            &trans          &trans          &trans
+&trans  &htp LS(N1) N1  &htp LS(N2) N2     &htp LS(N3) N3   &htp LS(N4) N4  &htp LS(N5) N5    &htp LS(N6) N6  &htp LS(N7) N7  &htp LS(N8) N8  &htp LS(N9) N9  &htp LS(N0) N0  &trans
+&trans  &kp LT          &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp LPAR        &trans            &kp PAGE_UP     &kp LEFT        &kp UP          &kp DOWN        &kp RIGHT       &trans
+&trans  &kp GT          &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp RPAR        &trans            &kp PAGE_DOWN   &kp DELETE      &trans          &trans          &trans          &trans
+                                           &trans           &kp LEFT_GUI    &trans            &trans          &trans          &trans
             >;
         };
     };
